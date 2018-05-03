@@ -19,7 +19,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: build
-    projects: Rx.NET/Source/build/serversion.csproj
+    projects: Rx.NET/Source/build/setversion.csproj
     arguments: -c $(BuildConfiguration)   
   displayName: Set Version
    
